@@ -3,9 +3,10 @@
            - Desconsiderar espaços, virgulas e pontos
 '''
 
-alfabeto = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
-            'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+import string
 
+
+alfabeto = string.ascii_lowercase
 tamanho_lista_alfabeto = len(alfabeto)            
 cifrado = 'the older i get, the more i believe that the only way to become a better programmer is by not programming. jeff atwood'
 chave_cripto = 12

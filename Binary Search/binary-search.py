@@ -1,6 +1,7 @@
 
-lista = [2, 5, 6, 10, 20, 22, 26, 30, 40, 42, 54]
-target = 54
+#lista = [2, 5, 6, 10, 20, 22, 26, 30, 40, 42, 54]
+lista = range(257)
+target = 256
 left_list = 0
 right_list = len(lista) - 1
 midle_list = (left_list + right_list) // 2

@@ -3,9 +3,10 @@
            - Desconsiderar espaços, virgulas e pontos
 '''
 
-alfabeto = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
-            'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+import string
 
+
+alfabeto = string.ascii_lowercase
 tamanho_lista_alfabeto = len(alfabeto)            
 cifrado = "ftq axpqd u sqf, ftq yadq u nqxuqhq ftmf ftq azxk imk fa nqoayq m nqffqd bdasdmyyqd ue nk zaf bdasdmyyuzs. vqrr mfiaap"
 chave_cripto = 12
